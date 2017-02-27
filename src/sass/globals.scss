@@ -1,0 +1,17 @@
+$primary: aliceblue;
+$primary-font-color: lighten(black, 15);
+$secondary: rgba(lighten(black, 30), 40);
+$secondary-font-color: rgba(lighten(black, 30), 40);
+
+$primary-link: #990099;
+
+$title-font: 'Unica One', sans-serif;
+$primary-font: 'Vollkorn' ,sans-serif;
+
+$column-spacing: 0%;
+
+$breakpoint: 576px;
+
+@mixin transition {
+	transition: all ease-in-out 0.2s;
+}
